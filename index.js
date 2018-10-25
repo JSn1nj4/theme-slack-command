@@ -1,0 +1,17 @@
+const express = require('express');
+const path = require('path');
+const PORT = process.env.PORT || 5000
+
+let app = express();
+
+app.use(express.static(path.join(__dirname, 'public')))
+  .use(express.json())
+  .set('json spaces', 2);
+
+app.get('/', (req, res) => res.redirect('http://elliotderhay.com'));
+
+app.get('/slack/theme', (req, res) => res.json({
+  hello: 'world'
+}));
+
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
