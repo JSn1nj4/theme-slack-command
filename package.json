@@ -20,5 +20,8 @@
     "url": "https://github.com/JSn1nj4/theme-slack-command/issues"
   },
   "homepage": "https://github.com/JSn1nj4/theme-slack-command#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
