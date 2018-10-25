@@ -1,0 +1,27 @@
+{
+  "name": "theme-slack-command",
+  "version": "0.1.0",
+  "description": "Show Slack sidebar theme in chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSn1nj4/theme-slack-command.git"
+  },
+  "keywords": [
+    "Slack",
+    "api"
+  ],
+  "author": "jsn1nj4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSn1nj4/theme-slack-command/issues"
+  },
+  "homepage": "https://github.com/JSn1nj4/theme-slack-command#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
